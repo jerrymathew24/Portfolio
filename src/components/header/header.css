@@ -1,8 +1,8 @@
 header {
-    height:  100vh;
-    padding-top:  1rem;
-   
-    overflow:  hidden;
+    height: 50vh;
+    padding-top: 1rem;
+
+    overflow: hidden;
 }
 
 .header__container {
@@ -10,10 +10,11 @@ header {
     height: 100%;
     position: relative;
 }
+
 /*========CTA=======*/
 
 .cta {
-    margin-top:  1rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1.3rem;
     justify-content: center;
@@ -39,48 +40,73 @@ header {
 }
 
 /*========ME=======*/
-
+/* 
 .me {
-    background:white; 
+    background: white;
     width: 22rem;
     height: 23rem;
     position: absolute;
     justify-content: center;
     left: 27.5%;
     margin-top: 0.5rem;
-    border-radius: 12rem 12rem 0 0 ;
-    overflow:hidden;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+.about__me {
+    width: 130%;
+    height: 16rem;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+    display: grid;
+    place-items: center;
 }
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
 
 /*========SCROLL-DOWN=======*/
 
 .scroll__down {
     position: absolute;
-    right:  -2.3rem;
-    bottom:  5rem;
-    transform:  rotate(90deg);
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 /*=======MEDIA QUERIES  (MEDIUM DEVICES)======*/
 
-@media screen and  (max-width: 1024px){  
-     header {
-        height:  68vh;
-     }
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
 }
 
 /*=======MEDIA QUERIES  (SMALL DEVICES)======*/
 
-@media screen and  (max-width: 600px){  
-     header {
+@media screen and (max-width: 600px) {
+    header {
         height: 100vh;
-     }
+    }
 
-     .header__socials,
-     .scroll__down {
+    .header__socials,
+    .scroll__down {
         display: none;
-     }
+    }
 }

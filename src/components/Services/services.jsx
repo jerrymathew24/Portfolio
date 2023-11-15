@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import { BiCheck } from 'react-icons/bi'
 
 const services = () => {
   return (
@@ -11,77 +11,75 @@ const services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className='service__head'>
-            <h3>  UI/UX Design</h3>
+            <h2>  Web Application Development</h2>
           </div>
           <ul className='service__list'>
-           
-           
+
+
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Minimalist and clean Website Design.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Enterprise applications</p>
             </li>
-           
+
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Modern UI to raise engagement and conversions.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Custom web applications</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Delivery of UX and UI innovations for better user appeal and usability.</p>
+              <BiCheck className='service__list-icon' />
+              <p>E-commerce applications</p>
             </li>
 
           </ul>
         </article>
-{/*=====end of ui/ux========*/}
+        {/*=====end of ui/ux========*/}
 
-<article className='service'>
+        <article className='service'>
           <div className='service__head'>
-            <h3> Front-end Development.</h3>
+            <h2> CMS Development</h2>
           </div>
           <ul className='service__list'>
-         
+
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p> Improve visual appeal, functional fullness and usability of existing web apps.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Custom CMS development</p>
             </li>
-          
+
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p> Close analysis of the user audience to understand their needs and reflect these findings in UI.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Integrating third-party CMS</p>
             </li>
-          
-           
-           
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Maintaining and updating CMS</p>
+            </li>
 
           </ul>
         </article>
-{/*=====end of Web Development<========*/}
+        {/*=====end of Web Development<========*/}
 
-<article className='service'>
+        <article className='service'>
           <div className='service__head'>
-            <h3>  Back-end Development</h3>
+            <h2>End-to-End Development</h2>
           </div>
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p> Implements the business logic of your web app on the back end.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Design and Planning</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Risk assessment and quality control assurance services..</p>
+              <BiCheck className='service__list-icon' />
+              <p>Development and Implementation</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Node.js Development Services.</p>
+              <BiCheck className='service__list-icon' />
+              <p>Deployment and Maintenance</p>
             </li>
-            
-
           </ul>
         </article>
-{/*=====end of Content Creation========*/}
-
+        {/*=====end of Content Creation========*/}
       </div>
-    </section>
+    </section >
   )
 }
 

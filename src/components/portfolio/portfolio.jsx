@@ -13,42 +13,42 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'e-commerce website :  suprastore - user',
-    github: 'https://github.com/PUMKIN24/ecommerce-supra-store',
+    github: 'https://github.com/jerrymathew24/ecommerce-supra-store',
     demo: 'https://supra-store-jqy4.onrender.com'
   },
   {
     id: 2,
     image: IMG2,
     title: 'e-commerce website :  suprastore - admin',
-    github: 'https://github.com/PUMKIN24/ecommerce-supra-store',
+    github: 'https://github.com/jerrymathew24/ecommerce-supra-store',
     demo: ''
   },
   {
     id: 3,
     image: IMG3,
     title: 'video-sharing website :   watchversee',
-    github: 'https://github.com/PUMKIN24/Watchverse',
-    demo: 'https://watchversee.netlify.app/'
+    github: 'https://github.com/jerrymathew24/Watchverse',
+    demo: 'https://watchversee.netlify.app'
   },
   {
     id: 4,
     image: IMG4,
     title: 'e-commerce website : supra-watches',
-    github: 'https://github.com/PUMKIN24/supra-watches-',
-    demo: 'https://supra-watches.cyclic.app/'
+    github: 'https://github.com/jerrymathew24/supra-watches-',
+    demo: 'https://supra-watches.cyclic.app'
   },
   {
     id: 5,
     image: IMG5,
     title: 'NETFLIX CLONE',
-    github: 'https://github.com/PUMKIN24/netflix-clone-React-',
+    github: 'https://github.com/jerrymathew24/netflix-clone-React-',
     demo: 'https://netflix-03.netlify.app'
   },
   {
     id: 6,
     image: IMG6,
     title: 'PORTFOLIO',
-    github: 'https://github.com/PUMKIN24/Portfolio',
+    github: 'https://github.com/jerrymathew24/Portfolio',
     demo: ''
   },
 

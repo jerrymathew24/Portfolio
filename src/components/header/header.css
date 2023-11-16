@@ -94,7 +94,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 45vh;
     }
 }
 
@@ -102,11 +102,6 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
-    }
-
-    .header__socials,
-    .scroll__down {
-        display: none;
+        height: 45vh;
     }
 }

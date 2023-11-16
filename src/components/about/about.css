@@ -83,12 +83,16 @@
 
     .about__me {
 
-        width: 50%;
+        width: 60%;
         margin: 2rem auto 4rem;
     }
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about__cards {
+        margin: 2rem
     }
 }
 
@@ -96,13 +100,14 @@
 
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 80%;
+        margin: 2rem auto 3rem;
     }
 
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        margin: 1rem
     }
 
     .about__content {
